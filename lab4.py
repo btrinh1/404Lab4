@@ -66,16 +66,16 @@ def new_task():
     else:
         return '''%s<form method="post" action="%s">
             <div class="field">
-                <label for="description">Description:</label>
-                <input type="text" name="description" id="description">
-            </div>
-            <div class="field">
                 <label for="category">Category:</label>
                 <input type="text" name="category" id="category">
             </div>
             <div class="field">
                 <label for="priority">Priority:</label>
                 <input type="number" name="priority" id="priority">
+            </div>
+            <div class="field">
+                <label for="description">Description:</label>
+                <input type="text" name="description" id="description">
             </div>
             <div class="field">
                 <input type="submit" value="Add">
